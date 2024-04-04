@@ -1,0 +1,41 @@
+.container{
+    background-color: aquamarine;
+    background-image: linear-gradient(62deg);
+
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caja{
+    border: 5px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    transition: all .5s ease-in-out;
+}
+
+.caja:hover{
+    background-color: brown;
+    color: yellow;
+    cursor: pointer;
+    /*transform: rotate(45deg);*/
+    /*transform: scale(1.1);*/
+    transform: skew(45deg);*/
+    /*transform: translate(40px,40px);*/
+   box-shadow: 10px,10px,10px;
+}
+.caja:active{
+    background-color: green;
+}
